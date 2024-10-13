@@ -15,10 +15,10 @@ func main() {
 
 	router := router.SetupRouter()
 
-	log.Printf("Server is running at %s", port)
+	log.Printf("Сервер работает по адресу %s", port)
 	if err := http.ListenAndServe(port, router); err != nil {
-		log.Fatalf("failed to start server: %v", err)
+		log.Fatalf("не удалось запустить сервер: %v", err)
 	}
 
-	log.Fatalf("server stopped")
+	log.Fatalf("сервер остановлен")
 }

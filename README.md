@@ -29,13 +29,13 @@
 1. Склонируйте репозиторий:
 
 ```bash
-git clone https://github.com/denisushakov/todo-rest.git
+git clone https://github.com/Shubakov-O/go-final-2
 ```
 
 2. Перейдите в папку проекта:
 
 ```bash
-cd todo-rest
+cd go-final-2
 ```
 
 3. Установите зависимости:

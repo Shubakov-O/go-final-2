@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: Shubakov-O/go-final-2
+          images: olegsh181/go-final-2
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
